@@ -9,7 +9,7 @@ import {
   type WeatherReportState,
 } from "@/stores/weatherReport";
 
-import SkeletonLoading from "@/components/SkeletonLoading.vue";
+import SkeletonLoading from "@/components/Global/SkeletonLoading.vue";
 
 const props = defineProps<{
   weatherReport: WeatherReportState;

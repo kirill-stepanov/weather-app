@@ -8,7 +8,7 @@ import {
   type WeatherReportState,
 } from "@/stores/weatherReport";
 
-import SkeletonLoading from "@/components/SkeletonLoading.vue";
+import SkeletonLoading from "@/components/Global/SkeletonLoading.vue";
 
 import IconWind from "@/components/icons/IconWind.vue";
 import IconHumidity from "@/components/icons/IconHumidity.vue";

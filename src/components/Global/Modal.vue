@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n";
 
-import Button from "@/components/Button.vue";
+import Button from "@/components/Global/Button.vue";
 
 defineProps<{
   showModal: boolean;

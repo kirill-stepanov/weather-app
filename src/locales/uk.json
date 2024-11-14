@@ -5,6 +5,9 @@
       "favorite": "Вибране"
     }
   },
+  "favorites": {
+    "noItems": "Тут поки що порожньо, додайте щось."
+  },
   "weatherReport": {
     "now": "Зараз {num}°C",
     "day": "День {num}°C",

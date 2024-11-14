@@ -10,7 +10,7 @@ import {
   type WeatherReportState,
 } from "@/stores/weatherReport";
 
-import Loader from "@/components/Loader.vue";
+import Loader from "@/components/Global/Loader.vue";
 
 import IconSearch from "@/components/icons/IconSearch.vue";
 

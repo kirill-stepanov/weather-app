@@ -7,7 +7,7 @@ import { appRouters, WEATHER_REPORTS_MAX_AMOUNT } from "@/constants";
 import { useWeatherReportsStore } from "@/stores/weatherReports";
 
 import LanguageSelect from "@/components/LanguageSelect.vue";
-import Button from "@/components/Button.vue";
+import Button from "@/components/Global/Button.vue";
 
 import IconAdd from "@/components/icons/IconAdd.vue";
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { WeatherTypes } from "@/stores/weatherReport";
 import { useWeatherReportsStore } from "@/stores/weatherReports";
-import { ref, type DefineComponent } from "vue";
+import { ref } from "vue";
 
 const props = defineProps<{
   id: string;

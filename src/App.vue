@@ -18,10 +18,10 @@ import Header from "@/components/Header.vue";
 const { locale } = useI18n();
 const geolocation = useGeolocation();
 const { getItem } = useLocalStorage();
+const weatherReport = useWeatherReportStore();
 const weatherReports = useWeatherReportsStore();
 
 const getFavoriteReports = () => {
-  const weatherReport = useWeatherReportStore();
   const coordinates: Coordinate[] = getItem(localStorageKeys.COORDINATES);
 
   coordinates.forEach((coordinate) => {

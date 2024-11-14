@@ -18,8 +18,8 @@ import {
   WEATHER_REPORTS_MIN_AMOUNT,
 } from "@/constants";
 
-import Modal from "@/components/Modal.vue";
-import Button from "@/components/Button.vue";
+import Modal from "@/components/Global/Modal.vue";
+import Button from "@/components/Global/Button.vue";
 import WeatherTypeToggler from "@/components/WeatherTypeToggler.vue";
 import SearchLocationInput from "@/components/SearchLocationInput.vue";
 

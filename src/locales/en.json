@@ -5,6 +5,9 @@
       "favorite": "Favorite"
     }
   },
+  "favorites": {
+    "noItems": "It's empty here for now, please add something."
+  },
   "weatherReport": {
     "now": "Now {num}°C",
     "day": "Day {num}°C",
