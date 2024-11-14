@@ -34,8 +34,22 @@ const weatherReport = useWeatherReportStore();
 
 <style scoped>
 .forecast {
+  min-height: 114px;
   display: flex;
   gap: 20px;
-  min-height: 114px;
+}
+
+@media (max-width: 1130px) {
+  .forecast {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .forecast {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 </style>

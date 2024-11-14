@@ -148,11 +148,19 @@ const toggleShowSavedIcon = (coordinate: Coordinate) => {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .header__actions {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column;
+    align-items: baseline;
+  }
 }
 </style>

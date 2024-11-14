@@ -149,4 +149,25 @@ const weatherReport = useWeatherReportStore();
   width: 24px;
   height: 24px;
 }
+
+@media (max-width: 700px) {
+  .current__report__main {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .current__report__main .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .title,
+  .weather {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 36px;
+  }
+}
 </style>

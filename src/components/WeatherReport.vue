@@ -51,4 +51,10 @@ const weatherReportStore = useWeatherReportStore();
   margin: 20px 0;
   min-height: 300px;
 }
+
+@media (max-width: 1130px) {
+  .wrapper__top__section {
+    flex-direction: column;
+  }
+}
 </style>

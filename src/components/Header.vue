@@ -70,4 +70,10 @@ const weatherReports = useWeatherReportsStore();
   display: flex;
   gap: 20px;
 }
+
+@media (max-width: 700px) {
+  .header__links a {
+    font-size: 16px;
+  }
+}
 </style>
